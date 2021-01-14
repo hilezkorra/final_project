@@ -1,0 +1,41 @@
+Grund Plan~
+
+1. Inhalt
+
+Weil es Corona gerade gibt und man auf keinen Parties gehen darf
+ich habe eine gute Idee bekommen. "Ich baue eine Seite wo man Privat Parties
+organizieren kann und Teilnehmern suchen." Das Ziel der WebApp ist
+das die Benutzer Haus Parties machen und das andere Nutzern sich melden
+das die daran teil nehmen möchten. Dadürch werden sich Leute kennenlernen und
+Kontakte knupffen. Party Infos werden eingeschrieben wie zB. Typ von Party
+(Geburstag,Barmitzwah,WG Party), Teilnehmer Begrenzung
+(1,2....10,...100,), Datum, Ort, Zeit usw... Danach werde die Party ünter Parties 
+near me angezeigt(die Ort werde nur den Stadt anzeigen oder die Entfernung).
+Die Users werden sich für die Party anmelden und dann wird der Host mit die ins
+Verbindung kommen durch Nachrichten. Durch Nachrichten könnten die dann Details
+miteinander teilen oder zum ein anderen Platform wechseln wie WhatsApp.
+Meiner Idee ist ein bisschen wie Tinder aber für Gruppen, und nicht auf Dating begrenzt.
+ZB. Vielleicht könnte man auch Blind Group dates organisieren oder ähnliches.
+
+2. Unterseiten
+
+    1. Titlepage - Hier könnte man sich einlogen oder Registrieren
+    2. Parties near me - Nach einlogen sieht man der Parties in der Nähe
+    3. People near me - du kannst auch Leute zum deinen Party einladen
+    4. My Profile - Hier kann man seinen Profil anschauen, änderen, Bilder hochladen usw...
+    5. Messages - Die Party organisators und Menschen die dabei sein möchten werden miteinander komunicieren
+    6. Organize a Party - Wann du eine Party anfangen willst kannst du es hier machen
+    7. Datenschutz - 
+    8. Impressum -
+
+3. Datenbank~
+
+Im bearbeitung
+
+4. CRUD
+
+Jeder Nutzer kann sein Profil ändern und seine Parties.
+Jeder Nützer kann die Parties sehen und für die anmelden.
+Die Party organisator kann jemand in die Party rein lassen
+und er kann Party announcments machen und private Nachrichten schicken.
+Party Organizators kann Leute zum Parties einladen

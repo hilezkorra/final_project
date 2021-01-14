@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    padding-top:122px;
+    padding-bottom: 60px;
+    margin:0;
+}
+#indexnav{
+    background:#1675f2;
+    padding:0;
+    margin:0;
+    position: absolute;
+    top:0;
+    width:100%;
+    box-shadow: 0 0px 20px 5px white;
+}
+#indexnav ul{
+    list-style-type: none;
+    background:#1675f2;
+    padding: 20px;
+    margin: 0;
+}
+#indexnav ul li{
+    display:inline-block;
+    padding: 15px;
+}
+#mainlogo{
+    width:100px;
+    border-radius: 100px;
+    float: left;
+    padding: 10px;
+}
+h1{
+    position: absolute;
+    z-index:10;
+    margin:0;
+    right:0;
+    top:0;
+    background:rgb(209, 0, 0);
+    padding:15px;
+    border-left:4px solid white;
+    border-bottom:4px solid white;
+    border-radius:0 0 0 50px;
+    color:white;
+}
+#main label h2{
+    position: relative;
+    top:20%;
+    width:70%;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding:10px;
+    border:3px solid rgba(255, 255, 255, 0.445);
+    color: white;
+    font-size: 200%;
+    background: rgba(174, 24, 24, 0.445);
+}
+#main a{
+    position: relative;
+    top:20%;
+}
+#main{
+    text-align: center;
+    background-image: url("../../img/index_bg.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top:-26px;
+    height:700px;
+}
+#main form{
+    position: relative;
+    top:20%;
+    width:70%;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding:10px;
+    border:3px solid rgba(255, 255, 255, 0.445);
+    color: white;
+    font-size: 200%;
+    background: rgba(174, 24, 24, 0.445);
+}
+#main form label{
+    display: block;
+    margin:auto;
+    color: white;
+    width:200px;
+    background: rgba(174, 24, 24, 0.445);
+    border:3px solid white;
+    border-radius:5px;
+}
+#main form p a{
+    color:white;
+    display: inline-block;
+    background:darkblue;
+    padding:3px;
+    border:2px solid white;
+    border-radius:20px;
+    transition: color 0.3s, background 0.3s, border-radius 0.3s; 
+}
+#main form p a:hover, #main form p a:focus{
+    color:black;
+    background:white;
+    border-radius:0;
+}
+#main form div button{
+    padding:5px;
+    font-size: 120%;
+    border:2px solid white;
+    border-radius:20px;
+    background: red;
+    color:white;
+    margin:5px;
+    transition: background 0.3s, transform 0.3s;
+}
+#main form div button:hover, #main form div button:focus{
+    background:black;
+    transform: scale(1.2);
+}
+
+footer{
+    border-radius: 0;
+    position: fixed;
+    bottom:0;
+    box-shadow: 0 -20px 20px -20px white;
+}

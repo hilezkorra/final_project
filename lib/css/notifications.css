@@ -1,0 +1,28 @@
+.notifications{
+    display:block;
+}
+.notification{
+    background: #ff000093;
+    border-radius: 20px;
+    border:2px solid white;
+}
+.notification img{
+    width:50px;
+}
+.notification p{
+    padding:5px;
+    display: inline-block;
+    width:70%;
+    border-radius:20px;
+    background: #ff0000bb;
+}
+.notification p a{
+    text-decoration:none;
+    color: white;
+    font-weight: bolder;
+}
+.notification:after{
+    display:table;
+    content:" ";
+    clear:both;
+}

@@ -1,0 +1,50 @@
+body{
+    color: white;
+    margin:0;
+}
+nav{
+    width:100%;
+    background: #ebebeb;
+}
+nav ul{
+    list-style-type: none;
+    height: 100px;
+    background: rgb(174, 24, 24);
+    padding-top:20px;
+    width:600px;
+    border-radius:0 0 100px 0;
+    margin-top: 0;
+    margin-bottom:0;
+}
+nav ul li{
+    display: inline-block;  
+    padding: 5px; 
+}
+
+.navavatar{
+    float:left;
+    width: 80px;
+    border:1px solid black;
+    border-radius: 100px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.navavatar:hover, .navavatar:focus{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+.navbutton{
+    width: 80px;
+}
+.navbutton:hover, .navbutton:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+    border:0 solid black;
+    padding: 0;
+    margin:0;
+    border-radius:100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}

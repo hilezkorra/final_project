@@ -1,0 +1,13 @@
+#main form label{
+    font-size: 80%;
+    display: inline-block;
+}
+#main form input{
+    margin: 0px 5px;
+}
+#main form{
+    top:5%;
+}
+#main label h2{
+    top:5%;
+}

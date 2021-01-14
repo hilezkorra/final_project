@@ -1,0 +1,42 @@
+
+        body{
+            background:black;
+            color:white;
+        }
+        label{
+            display:inline-block;
+            width:200px;
+        }
+        input{ margin:10px;}
+        .alert{color: red;}
+        header{
+          position:absolute;
+          text-align:center;
+          background:silver;
+          border-bottom:4px solid grey;
+          top:0;
+          left:0;
+          height:120px;
+          width:100%;
+          font-size:160%;
+        }
+        body img{
+            z-index:-1;
+            opacity:0.5;
+            max-width:100%;
+            position:absolute;
+            right:0;
+            top:150px;
+        }
+        form{
+            width:300px;
+            border:2px solid grey;
+            text-align:center;
+            padding:20px;
+            z-index:1;
+        }
+        @media screen and (max-width:1400px){
+            body img{
+                width:50%;
+            }
+        }
